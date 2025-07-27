@@ -1,97 +1,413 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>NRI Tax Advisor</title>
-    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NRI Tax Advisor - The Power of Good Tax Advice</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="Expert NRI tax consultancy services. Simplify Indian tax laws with professional guidance for tax filings, capital gains, DTAA benefits, and compliance solutions for Non-Resident Indians worldwide.">
+    <meta name="keywords" content="NRI tax, Indian tax filing, DTAA benefits, capital gains tax, NRI consultant, tax advisor, non-resident Indian taxation">
+    <meta name="author" content="NRI Tax Advisor">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.nritaxadvisor.in/">
+    <meta property="og:title" content="NRI Tax Advisor - The Power of Good Tax Advice">
+    <meta property="og:description" content="Expert NRI tax consultancy services for Non-Resident Indians worldwide. Professional guidance for all your Indian tax needs.">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.nritaxadvisor.in/">
+    <meta property="twitter:title" content="NRI Tax Advisor - The Power of Good Tax Advice">
+    <meta property="twitter:description" content="Expert NRI tax consultancy services for Non-Resident Indians worldwide.">
 </head>
 <body>
+    <!-- Header -->
     <header>
-        <nav>
-            <div class="logo">NRI Tax Advisor</div>
-            <ul>
-                <li><a href="#hero">Home</a></li>
-                <li><a href="#services">Services</a></li>
+        <nav class="container">
+            <a href="#" class="logo">NRI Tax Advisor</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#blog">Resources</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#clients">Clients</a></li>
                 <li><a href="#contact">Contact</a></li>
+                <li><a href="#contact" class="call-now-btn">Call Now</a></li>
             </ul>
+            <div class="social-icons">
+                <a href="#" aria-label="Facebook">📘</a>
+                <a href="#" aria-label="Twitter">🐦</a>
+                <a href="#" aria-label="LinkedIn">💼</a>
+            </div>
+            <div class="mobile-menu" id="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </nav>
     </header>
-    <section id="hero">
-        <h1>Simplifying Indian Taxes for NRIs Worldwide</h1>
-        <p>Expert help with tax filings, notices, DTAA, capital gains & more.</p>
-        <a href="#contact" class="btn">Get Expert Help</a>
-        <a href="#lead-magnet" class="btn-secondary">Free Initial Consultation</a>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>The Power of Good Tax Advice</h1>
+                    <p>Expert NRI tax consultancy services that simplify complex Indian tax laws. Get professional guidance for tax filings, capital gains, DTAA benefits, and complete compliance solutions.</p>
+                    <a href="#contact" class="learn-more-btn">Learn More</a>
+                </div>
+                <div class="hero-illustration">
+                    <div class="illustration-container">
+                        <div class="professional-figures">
+                            <div class="male-figure"></div>
+                            <div class="female-figure"></div>
+                            <div class="background-icons">
+                                <div class="icon" style="top: 20%; left: 10%;">📋</div>
+                                <div class="icon" style="top: 70%; right: 15%;">💼</div>
+                                <div class="icon" style="bottom: 30%; left: 15%;">📊</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-    <section id="problem">
-        <h2>Struggling with Indian tax laws, notices, or investments?</h2>
-        <p>We understand how overwhelming it can be. That’s why we’re here to help you file, save, and stay compliant.</p>
+
+    <!-- Problem Section -->
+    <section class="problem">
+        <div class="container">
+            <div class="section-header">
+                <h2>Common NRI Tax Challenges</h2>
+                <p>Understanding the complex landscape of Indian taxation for Non-Resident Indians</p>
+            </div>
+            <div class="problem-grid">
+                <div class="problem-card">
+                    <div class="problem-icon">😰</div>
+                    <h3>Complex Tax Notices</h3>
+                    <p>Receiving intimidating notices from the Income Tax Department with tight deadlines and unclear requirements that need immediate expert attention.</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon">📊</div>
+                    <h3>Capital Gains Confusion</h3>
+                    <p>Uncertainty about tax implications on property sales, mutual funds, stock investments, and other financial transactions in India.</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon">💰</div>
+                    <h3>Double Taxation Fears</h3>
+                    <p>Concerns about paying taxes in both countries without understanding DTAA benefits and available exemptions for NRIs.</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon">📋</div>
+                    <h3>Filing Complications</h3>
+                    <p>Struggling with mandatory ITR filings, TDS refunds, and compliance requirements while managing life abroad.</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon">🏦</div>
+                    <h3>Investment Dilemmas</h3>
+                    <p>Confusion about tax-efficient investment strategies, remittance regulations, and optimal financial planning for NRIs.</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon">⏰</div>
+                    <h3>Time Zone Challenges</h3>
+                    <p>Difficulty coordinating with Indian authorities and missing important deadlines due to time differences and distance.</p>
+                </div>
+            </div>
+        </div>
     </section>
-    <section id="services">
-        <h2>Our Solutions</h2>
-        <ul>
-            <li>✔️ Tax Return Filing for NRIs</li>
-            <li>✔️ Capital Gains & Asset Reporting</li>
-            <li>✔️ DTAA Claim Support</li>
-            <li>✔️ Tax Notice Handling</li>
-            <li>✔️ Repatriation & Remittance Advisory</li>
-        </ul>
+
+    <!-- Solution Section -->
+    <section id="services" class="solution">
+        <div class="container">
+            <div class="solution-content">
+                <div class="solution-text">
+                    <h2>Your Complete NRI Tax Solution</h2>
+                    <p>We handle everything so you can focus on your life abroad while staying compliant with Indian tax laws. Our expert team provides comprehensive solutions tailored specifically for Non-Resident Indians.</p>
+                    <ul class="solution-list">
+                        <li>Complete ITR Filing & TDS Refund Processing</li>
+                        <li>Capital Gains Tax Planning & Optimization</li>
+                        <li>DTAA Benefits & Double Taxation Relief</li>
+                        <li>Income Tax Notice Response & Resolution</li>
+                        <li>NRI Investment Advisory & Tax Planning</li>
+                        <li>Property Transaction Tax Guidance</li>
+                        <li>Remittance & FEMA Compliance</li>
+                        <li>24/7 Support Across Time Zones</li>
+                    </ul>
+                </div>
+                <div class="solution-visual">
+                    <div class="solution-card">
+                        <h3>💼 End-to-End Service</h3>
+                        <p>From consultation to compliance, we provide expert tax solutions designed specifically for NRIs worldwide.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-    <section id="how-it-works">
-        <h2>How It Works</h2>
-        <ol>
-            <li>Share Info</li>
-            <li>We Prepare & File</li>
-            <li>You Relax</li>
-        </ol>
+
+    <!-- How It Works -->
+    <section class="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <h2>How We Work</h2>
+                <p>Simple, transparent process to get your taxes handled professionally</p>
+            </div>
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <div class="step-icon">📝</div>
+                    <h3>Share Your Information</h3>
+                    <p>Provide your tax documents and specific requirements through our secure portal or during consultation.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <div class="step-icon">⚡</div>
+                    <h3>We Prepare & File</h3>
+                    <p>Our experts analyze, prepare, and file your returns while keeping you updated throughout the entire process.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">3</div>
+                    <div class="step-icon">😌</div>
+                    <h3>You Can Relax</h3>
+                    <p>Sit back and relax while we handle compliance, follow-ups, and ensure everything is perfectly managed.</p>
+                </div>
+            </div>
+        </div>
     </section>
-    <section id="lead-magnet">
-        <h2>🎁 Free NRI Tax Checklist</h2>
-        <p>Get our expert-made checklist to stay compliant. Download free when you sign up!</p>
-        <form>
-            <input type="email" placeholder="Your Email" required />
-            <button type="submit">Download Now</button>
-        </form>
+
+    <!-- Lead Magnet -->
+    <section id="consultation" class="lead-magnet">
+        <div class="container">
+            <h2>Get Your FREE NRI Tax Checklist</h2>
+            <p>Download our comprehensive checklist to ensure you never miss important tax deadlines and requirements</p>
+            <form class="lead-magnet-form" id="leadForm">
+                <input type="email" placeholder="Enter your email address" required>
+                <button type="submit">Download Free Checklist 📋</button>
+            </form>
+            <p style="font-size: 0.9rem; margin-top: 1.5rem; opacity: 0.9;">✅ Instant download • No spam • Unsubscribe anytime</p>
+        </div>
     </section>
-    <section id="blog">
-        <h2>NRI Tax Tips</h2>
-        <article>
-            <h3>5 Tax Tips Every NRI Must Know</h3>
-            <p>DTAA, capital gains, and compliance simplified.</p>
-        </article>
-        <article>
-            <h3>Should You File If You Have No Indian Income?</h3>
-            <p>When zero income still requires filing.</p>
-        </article>
-        <article>
-            <h3>How to Avoid Double Taxation as an NRI</h3>
-            <p>Smart moves with DTAA explained.</p>
-        </article>
+
+    <!-- Blog Section -->
+    <section id="resources" class="blog">
+        <div class="container">
+            <div class="section-header">
+                <h2>NRI Tax Tips & Insights</h2>
+                <p>Stay updated with the latest tax news and expert advice for Non-Resident Indians</p>
+            </div>
+            <div class="blog-grid">
+                <div class="blog-card">
+                    <div class="blog-image">📊</div>
+                    <div class="blog-content">
+                        <div class="blog-date">July 15, 2025</div>
+                        <h3>5 Common NRI Tax Filing Mistakes to Avoid in 2025</h3>
+                        <p>Learn about the most frequent errors NRIs make during tax season and how to prevent them from affecting your returns and compliance.</p>
+                        <a href="#" class="read-more">Read More →</a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-image">💰</div>
+                    <div class="blog-content">
+                        <div class="blog-date">July 10, 2025</div>
+                        <h3>DTAA Benefits: How NRIs Can Avoid Double Taxation</h3>
+                        <p>Complete guide to understanding Double Taxation Avoidance Agreements and claiming rightful tax benefits as an NRI.</p>
+                        <a href="#" class="read-more">Read More →</a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-image">🏠</div>
+                    <div class="blog-content">
+                        <div class="blog-date">July 5, 2025</div>
+                        <h3>Capital Gains on Property Sale: NRI Tax Implications</h3>
+                        <p>Everything you need to know about capital gains tax when selling property in India as a Non-Resident Indian.</p>
+                        <a href="#" class="read-more">Read More →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-    <section id="about">
-        <h2>About Us</h2>
-        <p>Led by experienced Indian tax consultants, NRI Tax Advisor makes tax compliance stress-free. Trusted by global NRIs for tailored support and expert advice.</p>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">👨‍💼</div>
+                <div class="about-text">
+                    <h2>Meet Your Trusted Tax Partner</h2>
+                    <p>With over 12 years of specialized experience in NRI taxation, our team of chartered accountants and tax experts has successfully helped thousands of Non-Resident Indians navigate the complex Indian tax landscape.</p>
+                    <p>We understand the unique challenges NRIs face - from time zone differences to evolving tax regulations. Our mission is to provide clear, reliable, and efficient tax solutions that give you peace of mind while living abroad.</p>
+                    <div class="credentials">
+                        <p><strong>Our Credentials:</strong></p>
+                        <ul>
+                            <li>✓ Certified Chartered Accountants (CA)</li>
+                            <li>✓ 12+ years NRI tax specialization</li>  
+                            <li>✓ 5000+ successful tax filings</li>
+                            <li>✓ 25+ countries served</li>
+                            <li>✓ 99.5% client satisfaction rate</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-    <section id="faq">
-        <h2>FAQ</h2>
-        <p><strong>Do NRIs need to file returns in India?</strong> Yes, if income exceeds ₹2.5 lakh or to claim refunds.</p>
-        <p><strong>Can I avoid double taxation?</strong> Yes, we help you claim DTAA benefits.</p>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2>Frequently Asked Questions</h2>
+                <p>Get answers to common NRI tax queries and concerns</p>
+            </div>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <h3>Do NRIs need to file tax returns in India?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, NRIs are required to file ITR if their Indian income exceeds ₹2.5 lakhs or if they have any taxable income in India, including rental income, capital gains, or business income. Filing is also mandatory if TDS has been deducted from your Indian income.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <h3>Can NRIs avoid double taxation on their income?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, NRIs can avoid double taxation by claiming benefits under DTAA (Double Taxation Avoidance Agreement) between India and their country of residence. You can claim tax credits or exemptions as per the treaty provisions.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <h3>What is the capital gains tax rate for NRIs?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>For NRIs, short-term capital gains are taxed at 30% (plus surcharge and cess), while long-term capital gains on property are taxed at 20% with indexation benefits. Equity investments have different rates - consult our experts for detailed guidance.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <h3>How long does the tax filing process take?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Typically, we complete tax filings within 7-10 business days once all documents are received. For complex cases involving capital gains or multiple income sources, it may take 10-15 days. We keep you updated throughout the process.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <h3>What documents do I need for NRI tax filing?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>You'll need Form 16/TDS certificates, bank statements, investment proofs, salary slips, property documents (if applicable), and details of foreign income. We provide a comprehensive checklist based on your specific situation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <form>
-            <input type="text" placeholder="Name" required />
-            <input type="email" placeholder="Email" required />
-            <input type="tel" placeholder="Phone" />
-            <textarea placeholder="How can we help you?"></textarea>
-            <button type="submit">Send</button>
-        </form>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Ready to Simplify Your Taxes?</h2>
+            <form class="contact-form" id="contactForm">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Full Name *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="country">Country of Residence</label>
+                        <input type="text" id="country" name="country" placeholder="e.g., USA, Canada, UK">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Brief Message *</label>
+                    <textarea id="message" name="message" placeholder="Tell us about your tax situation or questions..." required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message & Get Free Consultation 🚀</button>
+            </form>
+        </div>
     </section>
+
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2025 NRI Tax Advisor | <a href="#">Privacy Policy</a> | <a href="#">Disclaimer</a></p>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>NRI Tax Advisor</h3>
+                    <p>Simplifying Indian taxes for NRIs worldwide with expert guidance and personalized solutions tailored for your success.</p>
+                    <div style="margin-top: 1.5rem;">
+                        <p>📧 support@nritaxadvisor.in</p>
+                        <p>🌐 Available 24/7 for NRIs</p>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">ITR Filing</a></li>
+                        <li><a href="#">Capital Gains Tax</a></li>
+                        <li><a href="#">DTAA Benefits</a></li>
+                        <li><a href="#">Tax Notice Resolution</a></li>
+                        <li><a href="#">Investment Advisory</a></li>
+                        <li><a href="#">TDS Refunds</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Resources</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">NRI Tax Guide</a></li>
+                        <li><a href="#">Tax Calculator</a></li>
+                        <li><a href="#">Blog & Updates</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Free Consultation</a></li>
+                        <li><a href="#">Document Checklist</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Legal & Connect</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Disclaimer</a></li>
+                        <li><a href="#">Refund Policy</a></li>
+                    </ul>
+                    <div style="margin-top: 1.5rem;">
+                        <h4 style="color: #8FBC8F; font-size: 1rem; margin-bottom: 0.5rem;">Follow Us</h4>
+                        <div style="display: flex; gap: 1rem;">
+                            <a href="#" style="font-size: 1.5rem;" aria-label="Facebook">📘</a>
+                            <a href="#" style="font-size: 1.5rem;" aria-label="Twitter">🐦</a>
+                            <a href="#" style="font-size: 1.5rem;" aria-label="LinkedIn">💼</a>
+                            <a href="#" style="font-size: 1.5rem;" aria-label="YouTube">📺</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 NRI Tax Advisor. All rights reserved. | Professional tax services for Non-Resident Indians</p>
+                <p style="font-size: 0.9rem; margin-top: 1rem;">
+                    <strong>Disclaimer:</strong> This website provides general tax information. Please consult with our qualified tax professionals for advice specific to your situation. We are not responsible for any actions taken based on general information provided on this website.
+                </p>
+            </div>
+        </div>
     </footer>
+
+    <!-- Sticky CTA -->
+    <a href="#contact" class="sticky-cta">
+        <div class="btn">💬 Talk to Expert</div>
+    </a>
+
+    <script src="script.js"></script>
 </body>
 </html>
